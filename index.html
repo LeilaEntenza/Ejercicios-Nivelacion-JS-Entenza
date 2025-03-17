@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <h1>Ejercicios nivelación JS</h1>
+    <p>Aclaración: los ejercicios cuya respuesta se muestra por consola es porque fue especificado en la consigna.</p>
+    <h2>Ejercicio 1</h2>
+    <form>
+        Nombre: <input type="text" id="Nombre">
+        <input type="button" onclick="getName()" value="Enviar">
+    </form>
+    
+    <h2>Ejercicio 2</h2>
+    <form>
+        Número 1: <input id="Num1" type="number">
+        Número 2: <input id="Num2" type="number">
+        <input type="button" onclick="realizarOperaciones()" value="Enviar">
+    </form>
+    <p id="suma"></p>
+    <p id="resta"></p>
+    <p id="multiplicacion"></p>
+    <p id="division"></p>
+
+    <h2>Ejercicio 3</h2>
+    <form>
+        Número: <input id="numParImpar" type="number" >
+        <input type="button" onclick="parImpar()" value="Enviar">
+    </form>
+
+    <h2>Ejercicio 4</h2>
+    <form>
+        Palabra: <input id="palabraCaracteres" type="text">
+        <input type="button" onclick="cantidadLetras()" value="Enviar">
+    </form>
+    <p id="respuesta"></p>
+    <script src="EjerciciosJS.js"></script>
+
+    <h2>Ejercico 5</h2>
+    <form>
+        Frase: <input id="frase" type="text">
+        Número de repeticiones: <input id="repeticiones" type="number"> 
+        <input type="button" onclick="repetirFrase()" value="Enviar">
+    </form>
+    <h2>Ejercicio 6</h2>
+    <form>
+        Número a multiplicar: <input id="numTabla" type="number">
+        <input type="button" onclick="realizarTablas()" value="Enviar">
+    </form>
+    <h2>Ejercicio 7</h2>
+    <p>Para empezar a adivinar el número ingrese un número:</p>
+    <form>
+        Número: <input id="adivina" type="number">
+        <input type="button" onclick="adivinarNum()" value="Enviar">
+    </form>
+    <p id="estado"></p>
+    <h2>Ejercicio 8</h2>
+    <form>
+        Palabra: <input id="palabraVocales" type="text">
+        <input type="button" onclick="obtenerVocales()" value="Enviar">
+    </form>
+    <p id="cantVocales"></p>
+    <h2>Ejercicio 9</h2>
+    <form>
+        Palabra a revertir: <input id="palabraReversa" type="text">
+        <input type="button" onclick="obtenerRevertida()" value="Enviar">
+    </form>
+    <p id="palabraRevertida"></p>
+    <h2>Ejercicio 10</h2>
+    <form>
+        Palabra: <input id="palabraVerificar" type="text">
+        <input type="button" onclick="esPalindromo()" value="Enviar">
+    </form>
+    <p id="palindromo"></p>
+</body>
+</html>

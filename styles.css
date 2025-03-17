@@ -1,0 +1,11 @@
+body{
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #A2CADF;
+}
+
+input{
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+}
