@@ -79,7 +79,7 @@ function obtenerVocales(){
 function obtenerRevertida(){
     const palabra = document.getElementById('palabraReversa').value;
     let revertida = document.getElementById('palabraRevertida');
-    revertida.innerHTML = palabra.split('').reverse().join('');
+    console.log(palabra.split('').reverse().join(''));
 }
 
 function esPalindromo(){
